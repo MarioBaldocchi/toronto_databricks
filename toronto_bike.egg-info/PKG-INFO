@@ -1,0 +1,6 @@
+Metadata-Version: 2.2
+Name: toronto_bike
+Version: 0.0.1
+Author-email: Mario Baldocchi <marbaldo@ucm.es>
+Requires-Python: >=3.9
+Requires-Dist: requests

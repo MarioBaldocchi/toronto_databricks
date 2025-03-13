@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toronto_bike"
+version = "0.0.1"
+requires-python = ">=3.9"
+authors = [
+    { name = "Mario Baldocchi", email = "marbaldo@ucm.es" }
+]
+dependencies = [
+    "requests",
+]
+
+[tool.setuptools.packages.find]
+exclude = ["tests*"]
